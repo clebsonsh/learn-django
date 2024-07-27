@@ -20,4 +20,9 @@ class Migration(migrations.Migration):
             old_name='pub_date',
             new_name='pub_at',
         ),
+        migrations.RenameField(
+            model_name='question',
+            old_name='question_text',
+            new_name='text',
+        ),
     ]
